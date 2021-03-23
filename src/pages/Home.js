@@ -1,10 +1,13 @@
 import React from "react";
+import Navigation from "../components/Navigation";
 
 const Home = () => {
   return (
     <>
-      <h1>hello</h1>
-      <h2>homes</h2>
+      <div>
+        {/* on appel le module Navigation */}
+        <Navigation />
+      </div>
     </>
   );
 };

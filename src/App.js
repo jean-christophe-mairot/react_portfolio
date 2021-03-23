@@ -11,6 +11,7 @@ import Knowledges from "./pages/Knowledges";
 import NotFound from "./pages/NotFound";
 import Portfolio from "./pages/Portfolio";
 
+// je fais des hook sans le savoire
 const App = () => {
   return (
     //   <> et </> cela remplace les fragments
