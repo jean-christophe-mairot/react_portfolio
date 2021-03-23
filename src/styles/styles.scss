@@ -1,0 +1,9 @@
+// dicte tout le style du document on import le scss dans le fichier index.js
+//importe tous les styles
+@import "./settings";
+@import "./components/navigation";
+@import "./pages/contact";
+@import "./pages/knowledges";
+@import "./pages/portfolio";
+@import "./pages/home";
+@import "./pages/notFound";
