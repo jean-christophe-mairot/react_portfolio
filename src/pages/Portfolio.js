@@ -1,12 +1,14 @@
 import React from "react";
 import Navigation from "../components/Navigation";
+import ProjectList from "../components/portfolio/ProjectList";
 
 const Portfolio = () => {
   return (
     <>
-      <Navigation />
-      <h1>hello</h1>
-      <h2>portfolio</h2>
+      <div className="portfolio">
+        <Navigation />
+        <ProjectList />
+      </div>
     </>
   );
 };

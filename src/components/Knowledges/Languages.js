@@ -27,7 +27,7 @@ class Languages extends Component {
       <div className="languageFrameworks">
         <ProgressBar
           // je te passe les info de language
-          language={languages} //envoie le tableau en haut
+          languages={languages} //envoie le tableau en haut
           className="languagesDisplay" //une class
           title="languages" //un titre
         />

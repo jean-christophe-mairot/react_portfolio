@@ -7,10 +7,10 @@ import OtherSkills from "../components/Knowledges/OtherSkills";
 
 const Knowledges = () => {
   return (
-    <div className="Knowledges">
+    <div className="knowledges">
       {/* import de la navigation */}
       <Navigation />
-      <div className="KnowledgesContent">
+      <div className="knowledgesContent">
         <Languages />
         <Experiences />
         <Hobbies />

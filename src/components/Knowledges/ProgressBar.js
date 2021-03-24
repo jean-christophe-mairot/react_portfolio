@@ -19,20 +19,20 @@ const ProgressBar = (props) => {
           // fait appel aux tableaux de languages chaque element des tableaux est un item
           props.languages.map((item) => {
             let xpYears = 2;
-            // calcul pour la bar
-            let progressBar = (item.px / xpYears) * 100 + "%";
+            // calcul pour la taille de la barre
+            let progressBar = (item.xp / xpYears) * 100 + "%";
             return (
+              // il faut toujours une key
               <div key={item.id} className="languagesList">
-                <ul>
-                  <li>{item.value}</li>
-                  {/* prend la width de façon dynamique */}
-                  <div
-                    className="progressBar"
-                    style={{
-                      width: ProgressBar,
-                    }}
-                  ></div>
-                </ul>
+                <li>{item.value}</li>
+                {/* prend la width de façon dynamique */}
+                <div
+                  className="progressBar"
+                  // ajout de style toujours {{}}
+                  style={{
+                    width: progressBar,
+                  }}
+                ></div>
               </div>
             );
           })
