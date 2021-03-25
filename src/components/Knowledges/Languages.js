@@ -6,17 +6,17 @@ class Languages extends Component {
   // création d'un objet
   state = {
     languages: [
-      { id: 1, value: "Javascript", xp: 0.8 },
-      { id: 2, value: "css", xp: 1.5 },
-      { id: 3, value: "php", xp: 1 },
-      { id: 4, value: "html", xp: 1.5 },
+      { id: 1, value: "JavaScript", xp: 1 },
+      { id: 2, value: "php", xp: 1.2 },
+      { id: 3, value: "Html", xp: 1.5 },
+      { id: 4, value: "CSS", xp: 1.5 },
     ],
     frameworks: [
-      { id: 1, value: "Bootstrap", xp: 1.5 },
+      { id: 1, value: "React", xp: 0.7 },
       { id: 2, value: "Sass", xp: 0.7 },
-      { id: 3, value: "react", xp: 0.3 },
-      { id: 4, value: "Symfony", xp: 0.2 },
-      { id: 5, value: "Wordpress", xp: 1.5 },
+      { id: 3, value: "Symfony", xp: 0.3 },
+      { id: 4, value: "Bootstrap", xp: 1.5 },
+      { id: 5, value: "WordPress", xp: 1.5 },
     ],
   };
   render() {

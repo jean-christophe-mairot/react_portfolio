@@ -102,3 +102,6 @@ and under var options change removeCR from "false" to "true".
 **tool**
 install pour chrome : util qui permet d'analyser un site fait en react
 React developer Tools
+
+**build**
+npm run build
