@@ -20,7 +20,7 @@ const Hobbies = () => {
           </li>
           <li className="hobby">
             <i className="fas fa-dice"></i>
-            <span>Modelisme | Jeux de plateau</span>
+            <span>Jeux de plateau</span>
           </li>
           <li className="hobby">
             <i className="fas fa-print"></i>
@@ -28,7 +28,7 @@ const Hobbies = () => {
           </li>
           <li className="hobby">
             <i className="fas fa-route"></i>
-            <span>Séjour à l'écrangé</span>
+            <span>Séjour à l'étrangé</span>
           </li>
         </ul>
       </div>

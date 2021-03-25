@@ -8,30 +8,30 @@ const OtherSkills = () => {
         <div className="list">
           <ul>
             <li>
-              <i className="fas fa-check-square">Anglais Technique</i>
+              <i className="fas fa-check-square"> Anglais Technique</i>
             </li>
             <li>
-              <i className="fas fa-check-square">Github</i>
+              <i className="fas fa-check-square"> Github</i>
             </li>
             <li>
-              <i className="fas fa-check-square">Cybersecurité (ANSSI)</i>
+              <i className="fas fa-check-square"> Cybersecurité (ANSSI)</i>
             </li>
             <li>
-              <i className="fas fa-check-square">SEO</i>
+              <i className="fas fa-check-square"> SEO</i>
             </li>
           </ul>
           <ul>
             <li>
-              <i className="fas fa-check-square">Photoshop</i>
+              <i className="fas fa-check-square"> Photoshop</i>
             </li>
             <li>
-              <i className="fas fa-check-square">Nuke</i>
+              <i className="fas fa-check-square"> Nuke</i>
             </li>
             <li>
-              <i className="fas fa-check-square">After Effect</i>
+              <i className="fas fa-check-square"> After Effect</i>
             </li>
             <li>
-              <i className="fas fa-check-square">Davinci Resolve & Revival</i>
+              <i className="fas fa-check-square"> Davinci Resolve & Revival</i>
             </li>
           </ul>
         </div>

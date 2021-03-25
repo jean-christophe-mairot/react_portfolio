@@ -130,6 +130,7 @@
         padding: 0.5rem 0 0.5rem 1rem;
       }
       p {
+        margin: 10px 0;
         text-align: justify;
         padding: 0 1rem;
       }
@@ -213,24 +214,31 @@
 }
 @media screen and (max-width: 500px) {
   .knowledgesContent {
-    display: grid !important;
-    grid-template-columns: 1fr !important;
-    grid-template-rows: 1fr 1fr 180px 180px !important;
+    
+    
+    
+    display: flex !important;
+    flex-direction: column;
+    
 
     .languages {
-      grid-area: 1 !important;
+      // grid-area: 1 !important;
     }
     .experience {
-      grid-area: 2 !important;
-      margin-left: 0 !important;
+      // grid-area: 2 !important;
+      // margin-left: 0 !important;
     }
     .otherSkills {
-      grid-area: 3 !important;
-      margin-right: 0 !important;
+      display: block;
+      height: 250px;
+      margin-top: 0.2rem;
+      // grid-area: 3 !important;
+      // margin-right: 0 !important;
     }
     .hobbies {
-      grid-area: 4 !important;
-      margin-top: 0.5rem !important;
+      height: 250px;
+      // grid-area: 4 !important;
+      // margin-top: 0.1rem !important;
     }
   }
 }

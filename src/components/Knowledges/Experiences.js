@@ -13,9 +13,6 @@ const Experiences = () => {
             J'assure la retouche d'images animées au moyen de logiciels
             spécialisés.
           </p>
-        </div>
-
-        <div className="exp-2">
           <h4>GRAPHISTE VFX</h4>
           <h5>2004 - 2012</h5>
           <p>
@@ -23,7 +20,8 @@ const Experiences = () => {
             publicités parfois en présence du client.
           </p>
         </div>
-        <div className="exp-3">
+
+        <div className="exp-2">
           <h4>GAME DESIGNER</h4>
           <h5>1999 - 2003</h5>
           <p>
@@ -31,9 +29,6 @@ const Experiences = () => {
             communiquant afin de transmettre de manière claire et concise mes
             idées au reste de l'équipe (édition de documentation).
           </p>
-        </div>
-
-        <div className="exp-4">
           <h4>ANIMATEUR RADIO</h4>
           <h5>1997 - 1998</h5>
           <p>

@@ -63,7 +63,7 @@
 @media screen and (max-width: 580px) {
   .homeContent {
     &:after {
-      // background: url("../../media/code_carousel_carre.jpg") no-repeat 60% 50% /cover !important;
+      background: url("../../media/code_carousel_carre.jpg") no-repeat 60% 50% /cover !important;
       background-color: $color-4;
     }
     h1 {

@@ -77,17 +77,28 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 - npm i node-sass
 - npm i react-router-dom
 
+librairie qui permet de copier dans le presse papier quelque chose sur lequel on click
+
+- npm i react-copy-to-clipboard
+
 **probleme**
 ./src/styles/styles.scss (./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-6-1!./node_modules/postcss-loader/src??postcss!./node_modules/resolve-url-loader??ref--5-oneOf-6-3!./node_modules/sass-loader/dist/cjs.js??ref--5-oneOf-6-4!./src/styles/styles.scss)
 Error: resolve-url-loader: CSS error
-  source-map information is not available at url() declaration (found orphan CR, try removeCR option)
+source-map information is not available at url() declaration (found orphan CR, try removeCR option)
 
-  solution :
-  https://stackoverflow.com/questions/58649677/node-error-resolve-url-loader-css-error
-
+solution :
+https://stackoverflow.com/questions/58649677/node-error-resolve-url-loader-css-error
 
 I had this same error. To fix this, I had to navigate to
 node_modules/resolve-url-loader
 open
 index.js
 and under var options change removeCR from "false" to "true".
+
+**tuto**
+
+- https://www.youtube.com/watch?v=pS0v5eY7W9k&ab_channel=FromScratch-D%C3%A9veloppementWeb
+
+**tool**
+install pour chrome : util qui permet d'analyser un site fait en react
+React developer Tools
